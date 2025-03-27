@@ -94,7 +94,7 @@ class llist(adressbook):
                 output = int(input('Для вывода всех наименований: 1\nДля вывода полной информации: 2\nДля выхода в меню:3\n:'))
                 if output == 1:
                     for o in self.editbook:
-                        print(o, end='')
+                        print(o)
                 elif output == 2:
                     for o in self.editbook:
                         print('\nНаименование:', o, '\nОписание:', self.editbook[o])
